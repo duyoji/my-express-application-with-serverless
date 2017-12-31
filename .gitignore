@@ -1,4 +1,4 @@
-# Created by https://www.gitignore.io/api/git,vim,node,macos,visualstudiocode
+# Created by https://www.gitignore.io/api/git,vim,node,macos,visualstudiocode,serverless
 
 ### Git ###
 *.orig
@@ -113,4 +113,8 @@ tags
 !.vscode/extensions.json
 .history
 
-# End of https://www.gitignore.io/api/git,vim,node,macos,visualstudiocode
+### Serverless ###
+## Ignore build directory
+.serverless
+
+# End of https://www.gitignore.io/api/git,vim,node,macos,visualstudiocode,serverless
